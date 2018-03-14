@@ -1,0 +1,39 @@
+{
+  "name": "core-offline",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "cordova-ios": "4.5.4",
+    "cordova-plugin-indexeddb-async": "^2.2.1",
+    "cordova-plugin-whitelist": "^1.3.3",
+    "formiojs": "^2.29.11",
+    "formiojs-plugin-offline": "git+ssh://git@github.com/formio/formio-plugin-offline.git",
+    "navigo": "^7.1.1"
+  },
+  "devDependencies": {
+    "babel-loader": "^7.1.4",
+    "babel-preset-es2015": "^6.24.1",
+    "css-loader": "^0.28.10",
+    "file-loader": "^1.1.11",
+    "http-server": "^0.11.1",
+    "style-loader": "^0.20.3",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.12"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Randall Knutson <randall@form.io>",
+  "license": "ISC",
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-indexeddb-async": {}
+    },
+    "platforms": [
+      "ios"
+    ]
+  }
+}

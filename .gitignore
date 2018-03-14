@@ -1,0 +1,20 @@
+# Mac
+.DS_Store
+
+# IntelliJ IDEA files
+*.iml
+.idea
+
+#windows
+Thumbs.db
+Desktop.ini
+
+# Node
+npm-debug.log
+/node_modules
+
+# Cordova
+/platforms
+/plugins
+
+/www
